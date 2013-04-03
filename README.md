@@ -12,3 +12,8 @@ Since the method is static, simply use the following call where `host` is a stri
 the name of the machine you're trying to reach.
 
 `Ping.isReachable(host);`
+
+### How it works
+This tool executes the ping command piped with find. It basically parses out the 
+ping and looks for TTL. If TTL is present, we know the machine has been reached, else
+it is not reachable.
