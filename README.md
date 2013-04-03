@@ -16,6 +16,7 @@ the name or IP address of the machine you're trying to reach.
 ```java
 Ping.isReachable(host);
 ```
+If the machine is reachable, it will return true; else it will return false.
 
 ### How it works
 This tool executes the ping command piped with find. It basically parses out the 
