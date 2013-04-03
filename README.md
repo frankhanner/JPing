@@ -8,6 +8,7 @@ for Windows machines only since the false reading occures when Port 7 is
 blocked; thus, ICMP isn't the default method, which is what "ping" uses.
 
 ### Use
-Since the method is static, simply use the following call where `host` a string with
+Since the method is static, simply use the following call where `host` is a string with
 the name of the machine you're trying to reach.
+
 `Ping.isReachable(host);`
