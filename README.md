@@ -9,7 +9,7 @@ blocked; thus, ICMP isn't the default method, which is what "ping" uses.
 
 ### Use
 Since the method is static, simply use the following call where `host` is a string with
-the name of the machine you're trying to reach.
+the name or IP address of the machine you're trying to reach.
 
 `Ping.isReachable(host);`
 
