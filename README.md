@@ -6,7 +6,7 @@ via ICMP ping as opposed to Java's included TCP method:
 InetAddress.getByName(ip).isReachable(timeout);
 ```
 I've noticed some false readings using the above Java API in some instances on
-windows machines. This is intended for Windows machines only since the false 
+windows machines. JPing is intended for Windows machines only since the false 
 reading occures when Port 7 is blocked; thus, ICMP isn't the default method, 
 which is what "ping" uses. If on Mac or Linux, Java's API will work in all circumstances.
 
